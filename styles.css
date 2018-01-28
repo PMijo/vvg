@@ -1,0 +1,45 @@
+body{
+	background:url('ff.jpg');
+	background-size: cover;
+	color:white;
+	
+}
+h1 {
+    font-size: 24px;
+font-family: "Verdana", Helvetica, sans-serif;
+font-style: bold;
+}
+p {
+    font-size: 12px;
+font-family: "Verdana", Helvetica, sans-serif;
+}
+p.citat {
+font-style: italic;
+font-size: 12px;
+border: 1px solid #000;
+padding: 6px;
+
+}
+a.vrsta1:link {color: #9b5c98;}
+a.vrsta1:visited {color: #0000CC;}
+a.vrsta1:hover {text-decoration: underline;}
+a.vrsta1:active {background-color: #9b5c98; color: #FFFFCC}
+
+a.vrsta2:link {color: #000000;}
+a.vrsta2:visited {color: #9b5c98;}
+a.vrsta2:hover {text-decoration: underline;}
+a.vrsta2:active {background-color: #000000; color: #FFFFCC}
+body {
+
+
+
+background-repeat:no-repeat;
+
+
+}
+.nav > li{
+	display:inline-block;
+	padding:0 25px 0 25px;
+	
+
+}

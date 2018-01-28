@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<title>Fifa 17</title>
+		<meta http-equiv="content-type" content="text/html"; charset=UTF-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="Mijo Pesic">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+
+<body>
+<img src="112.png">
+	<header>
+		<h1>FIFA 17</h1>
+	</header>
+	<!-- Header -->
+	<header id="header">
+		<nav id="nav">
+			<ul class="nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="left-sidebar.html">Gameplay</a></li>
+				<li><a href="right-sidebar.html">The Journey</a></li>
+				<li><a href="no-sidebar.html">Cover athletes</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="Registracija.html">Registracija</a></li>
+			</ul>
+		</nav>
+	</header>
+	<p class="citat">The new features in FIFA 17 include new attacking techniques, physical player overhaul, active intelligence system and set piece rewrite. EA also announced at Gamescom 2016 that Squad Building Challenges and FUT Champions will be in FIFA Ultimate Team, but not in the Xbox 360 and PlayStation 3 editions of the game.</p>
+
+
+<main>
+		<h1>Contact Form</h1>
+		<div id="contact">
+			<form action="send_data.php" id="contact_form" name="contact_form" method="POST">
+				<label for="fname">First Name *</label>
+				<input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+				<label for="lname">Last Name *</label>
+				<input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+				
+				<label for="lname">Your E-mail *</label>
+				<input type="email" id="email" name="email" placeholder="Your e-mail.." required>
+
+				<label for="country">Country</label>
+				<select id="country" name="country">
+				  <option value="">Please select</option>
+				  <option value="BE">Belgium</option>
+				  <option value="HR" selected>Croatia</option>
+				  <option value="LU">Luxembourg</option>
+				  <option value="HU">Hungary</option>
+				</select>
+
+				<label for="subject">Subject</label>
+				<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</main>
+</body>
+</html>
